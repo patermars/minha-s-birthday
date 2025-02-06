@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Audio -->
+    <audio id="bgMusic" src="happybirthday.mp3" preload="auto"></audio>
+
+    <!-- Main Content Container -->
+    <div class="envelope-container">
+        <!-- Envelope Section -->
+        <div class="envelope" id="envelope">
+            <div class="back"></div>
+            <div class="letter" id="letter">
+                <div class="heart"></div>
+                <div class="text">
+                    <p>✨Many Many Happy Returns Of The Day✨ <br> 💓Minha My Love💓</p>
+                    <!-- Button for the Surprise -->
+                    <button id="photoLink" class="surprise-button">Chap Dao🤤🎁</button>
+                    <!-- Hidden Image inside the letter -->
+                    <img id="surpriseImage" src="minha.jpg" alt="Surprise Photo" width="200" style="display: none;">
+                </div>
+            </div>
+            <div class="envelope-front"></div>
+            <div class="envelope-top"></div>
+            <div class="envelope-shadow"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
